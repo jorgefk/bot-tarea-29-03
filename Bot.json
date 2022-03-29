@@ -1,0 +1,81 @@
+{
+    "intents": [
+      {
+        "tag": "Saludo",
+        "patterns": [
+          "Hola",
+          "Hola!",
+          "¿Como Estas?",
+          "¿Hay alguien ahi?",
+          "Buen dia"
+        ],
+        "responses": [
+          "Hola! :D",
+          "Hola, Gracias por visitarme",
+          "Hola, ¿qué puedo hacer por ti?",
+          "Hola, ¿en que te puedo ayudar?"
+        ]
+      },
+      {
+        "tag": "Despedidad",
+        "patterns": ["Chau", "Nos vemos", "Hasta luego"],
+        "responses": [
+          "Nos vemos mas tarde!",
+          "Chau",
+          "Hasta luego!."
+        ]
+      },
+      {
+        "tag": "Gracias",
+        "patterns": ["Gracias", "Gracias!", "me has ayudado!"],
+        "responses": ["Gracias a ti!", "No hay problema!", "De nada"]
+      },
+      {
+        "tag": "Cosas",
+        "patterns": [
+          "Que tienes para vender?",
+          "Que me puedes vender?",
+          "Vendes algo?"
+        ],
+        "responses": [
+          "Vendo café y té",
+          "Si, vendo café y té"
+        ]
+      },
+      {
+        "tag": "pagos",
+        "patterns": [
+          "Aceptas efectivo?",
+          "Aceptas MasterCard?",
+          "Puedo pagar con Tarjeta de credito?"
+        ],
+        "responses": [
+          "acepto VISA, Mastercard y efectivo",
+          "acepto tarjetas de credito, debito y efectivo"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Cuanto tarda la entrega?",
+          "Cuanto tarda el delivery?"
+        ],
+        "responses": [
+          "La entrega tarda de 1-3 horas",
+          "El delivery tarda de 1-3 horas"
+        ]
+      },
+      {
+        "tag": "chistes",
+        "patterns": [
+          "Contame un chiste!",
+          "Decime algo gracioso!",
+          "Conoces algun chiste?"
+        ],
+        "responses": [
+          "Que hace un perro con un taladro? Tala-drando",
+          "Que le dice un jardinaro a otro? Hablemos mientras -Podamos-"
+        ]
+      }
+    ]
+  }
